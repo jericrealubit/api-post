@@ -5,6 +5,6 @@ const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology:
 client.connect(err => {
   if (err) throw err; 
 });
-const collection = client.db("testdb").collection("testcollection");
+const collection = client.db("store").collection("posts");
 
 module.exports = { collection, ObjectId }
