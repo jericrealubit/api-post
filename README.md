@@ -1,30 +1,30 @@
-# api-thu
+# api-posts
 
 ## REST API with express / mongodb / netlify / serverless 
 
 # GET
-https://rest-api-express-mongodb.netlify.app/.netlify/functions/api/
+https://api-posts-jeric.netlify.app/.netlify/functions/api
 
 # POST
-https://rest-api-express-mongodb.netlify.app/.netlify/functions/api/
+https://api-posts-jeric.netlify.app/.netlify/functions/api
 PAYLOAD:
 {    
     "username": "johndoe",
     "email": "johndoe@gmail.com",
-    "imageUrl": "abc"
+    "password": "abc123"
 }
 
 # GET:id
-https://rest-api-express-mongodb.netlify.app/.netlify/functions/api/62f2e9c9d9bcc19cd5dbcc88
+https://api-posts-jeric.netlify.app/.netlify/functions/api/63102dea2f72af4e9629e40a
 
 # PUT:id
-https://rest-api-express-mongodb.netlify.app/.netlify/functions/api/62f2e9c9d9bcc19cd5dbcc88
+https://api-posts-jeric.netlify.app/.netlify/functions/api/63102dea2f72af4e9629e40a
 PAYLOAD:
 {    
-    "username": "NEWjohndoe",
-    "email": "johndoe@gmail.com",
-    "imageUrl": "abc"
+    "username": "newjohndoe",
+    "email": "newjohndoe@gmail.com",
+    "password": "newabc123"
 }
 
 # DELETE:id
-https://rest-api-express-mongodb.netlify.app/.netlify/functions/api/62f2e9c9d9bcc19cd5dbcc88
+https://api-posts-jeric.netlify.app/.netlify/functions/api/63102dea2f72af4e9629e40a
